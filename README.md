@@ -1,4 +1,4 @@
-# Model-Evaluation        ![](https://img.shields.io/badge/Haribaskar-Dhanabalan-brightgreen.svg?colorB=ff0000)
+# Model-Evaluation        ![](https://img.shields.io/badge/Haribaskar-Dhanabalan-brightgreen.svg?colorB=#ADFF2F)
 
 This Package is developed to evaluate the classification | Regression models based on different metrics.
 
