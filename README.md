@@ -6,6 +6,7 @@ The use case I have solved in this module is to get the actual and predicted val
 classification and continious value for regression). Based on this input it creates a Evaluation table which contains these columns:
 
 **Regression-** `Unique_ModelID`,`Model_Reference_name`,`mean_absolute_error`, `mean_squared_error`, `mean_squared_log_error`,`median_absolute_error`, `r2_score`, `actual_pred_details`,`Time_stamp`.
+
 **Classification-** `Unique_ModelID`,`Model_Reference_name`,`Threshold`,`TP`,`FP`,`FN`,`TN`,`Accuracy`,
 `Precision`,`recall`,`f1`,`mcc`,`roc_auc`,`actual_pred_details`,`Time_stamp`.
 
