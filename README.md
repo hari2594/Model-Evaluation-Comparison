@@ -65,11 +65,12 @@ evalu.Compare_models(evaluate_db = metrics_db, model_id = [metrics_db['Unique_Mo
 
 ## Decile level Analysis:
 
-The Decile level analysis is done based on the `Cumulative population`, `Accuracy in Decile` and `True Covered` - based on this the 
-we can plot the graph (which is a replication from `Rapid Miner`) from this plot also we can come up with the best threshold and 
-also we can understand our population ie., how the population is distributed from the positive to negative scale (positive is Target =1, negative is Target = 0, which changes based on the business scenerio).
+The Decile level analysis plot is done based on `Cumulative population`, `Accuracy in Decile` and `True Covered` - (which is a replication from `Rapid Miner`) from this plot also we can come up with the best threshold and also we can understand our population ie., how the population is distributed from the positive to negative scale (positive is Target =1, negative is Target = 0 - which can change based on the business scenerio).
 
 ![Alt text](https://us.v-cdn.net/6030995/uploads/lithium_attachments/image/serverpage/image-id/3131iAC6D608E14231F98/question.png?raw=true "Sample decile plot from rapid miner")
+
+**How to Interpret the above graph?** *The model is doing a good job in detecting the class 'Snowy Weather'.  If you look into the predictions for all our unseen test cases and sort them according to the confidence for 'Snowy Weather', most of the snow days have indeed been covered when the model was more sure that it will snow.  For example, 71% of all snow days have been covered by the top 30% cases where the model was most sure it will snow."
+The last sentence above also makes clear why lift / gain charts are in particular useful for marketing campaigns.  Here it would read "we only send our campaign to the top 30% of our leads and got 71% of all possible responses.  This saved us 70% of costs for almost the same outcome!*
 
 ---
 ## Contributing
@@ -79,7 +80,4 @@ Patches are welcome, preferably as pull requests.
 ---
 ### Other Reference for evaluation:
 [Documentation here](http://edublancas.github.io/sklearn-evaluation) - sklearn evaluation 
-
-
-
 
