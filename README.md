@@ -69,7 +69,9 @@ The Decile level analysis plot is done based on `Cumulative population`, `Accura
 
 ![Alt text](https://us.v-cdn.net/6030995/uploads/lithium_attachments/image/serverpage/image-id/3131iAC6D608E14231F98/question.png?raw=true "Sample decile plot from rapid miner")
 
-**How to Interpret the above graph?** *The model is doing a good job in detecting the class 'Snowy Weather'.  If you look into the predictions for all our unseen test cases and sort them according to the confidence for 'Snowy Weather', most of the snow days have indeed been covered when the model was more sure that it will snow.  For example, 71% of all snow days have been covered by the top 30% cases where the model was most sure it will snow.*
+**How to Interpret the above graph?** 
+
+*The model is doing a good job in detecting the class 'Snowy Weather'.  If you look into the predictions for all our unseen test cases and sort them according to the confidence for 'Snowy Weather', most of the snow days have indeed been covered when the model was more sure that it will snow.  For example, 71% of all snow days have been covered by the top 30% cases where the model was most sure it will snow.*
 
 *The last sentence above also makes clear why lift / gain charts are in particular useful for marketing campaigns.  Here it would read "we only send our campaign to the top 30% of our leads and got 71% of all possible responses.  This saved us 70% of costs for almost the same outcome!"*
 
