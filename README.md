@@ -10,6 +10,9 @@ classification and continious value for regression). Based on this input it crea
 **Classification-** `Unique_ModelID`,`Model_Reference_name`,`Threshold`,`TP`,`FP`,`FN`,`TN`,`Accuracy`,
 `Precision`,`recall`,`f1`,`mcc`,`roc_auc`,`actual_pred_details`,`Time_stamp`.
 
+From this table we can get threshold value which maximises a particular metrics (the metrics can be choosen according the business requirement - for classification we can go with f1 score for most of the cases (or) if you are concentrating more on the negative 
+class then we can select recall etc.,)
+
 ---
 #### Code Structure:
 ```python
@@ -65,7 +68,7 @@ Patches are welcome, preferably as pull requests.
 
 ---
 ### Other Reference for evaluation:
-[Documentation here.] - sklearn evaluation (http://edublancas.github.io/sklearn-evaluation)
+[Documentation here](http://edublancas.github.io/sklearn-evaluation) - sklearn evaluation 
 
 
 
