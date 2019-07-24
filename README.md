@@ -72,7 +72,7 @@ also we can understand our population ie., how the population is distributed fro
 ![Alt text](https://us.v-cdn.net/6030995/uploads/lithium_attachments/image/serverpage/image-id/3131iAC6D608E14231F98/question.png?raw=true "Sample decile plot from rapid miner")
 
 <center>
-<a href="doc/assets/res_stats.png" target="_blank"><img src="https://us.v-cdn.net/6030995/uploads/lithium_attachments/image/serverpage/image-id/3131iAC6D608E14231F98/question.png" alt="Model Evaluation" height="200" border="5" /></a>
+<img src="https://us.v-cdn.net/6030995/uploads/lithium_attachments/image/serverpage/image-id/3131iAC6D608E14231F98/question.png" alt="Model Evaluation" height="800" border="50" />
 </center>
 
 ---
