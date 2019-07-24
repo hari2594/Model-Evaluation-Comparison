@@ -62,6 +62,14 @@ metrics_db = evalu.evaluate(evaluate_save=True,plots_show=False)
 evalu.Compare_models(evaluate_db = metrics_db, model_id = [metrics_db['Unique_ModelID'][0]],comparison_metrics = ['Accuracy','mcc'])
 ```
 ---
+
+## Decile level Analysis:
+
+The Decile level analysis is done based on the `Cumulative population`, `Accuracy in Decile` and `True Covered` - based on this the 
+we can plot the graph (which is a replication from `Driverless AI`) from this plot also we can come up with the best threshold and 
+also we can understand our population.
+
+---
 ## Contributing
 
 Patches are welcome, preferably as pull requests.
