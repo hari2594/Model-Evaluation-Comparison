@@ -66,8 +66,10 @@ evalu.Compare_models(evaluate_db = metrics_db, model_id = [metrics_db['Unique_Mo
 ## Decile level Analysis:
 
 The Decile level analysis is done based on the `Cumulative population`, `Accuracy in Decile` and `True Covered` - based on this the 
-we can plot the graph (which is a replication from `Driverless AI`) from this plot also we can come up with the best threshold and 
-also we can understand our population.
+we can plot the graph (which is a replication from `Rapid Miner`) from this plot also we can come up with the best threshold and 
+also we can understand our population ie., how the population is distributed from the positive to negative scale (positive is Target =1, negative is Target = 0, which changes based on the business scenerio).
+
+![Alt text](https://us.v-cdn.net/6030995/uploads/lithium_attachments/image/serverpage/image-id/3131iAC6D608E14231F98/question.png?raw=true "Sample decile plot from rapid miner")
 
 ---
 ## Contributing
