@@ -56,7 +56,7 @@ actual = [random.sample(range(0,2),1)[0] for i in range(100)]
 evalu = eval_mod.ModelEvaluation(actual = actual, pred = pred_prob)
 
 # Model evaluation call:
-metrics_db = evalu.evaluate(evaluate_save=True,plots_show=False)
+metrics_db, decile_db, best_threshold, maximising_metrics = evalu.evaluate()
 
 # Model Comparison call:
 evalu.Compare_models(evaluate_db = metrics_db, model_id = [metrics_db['Unique_ModelID'][0]],comparison_metrics = ['Accuracy','mcc'])
