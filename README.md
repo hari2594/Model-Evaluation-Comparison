@@ -24,6 +24,7 @@ class evaluation_plots():
   display plots
 class ModelEvaluation(Evaluation,evaluation_plots):
   .........
+  .........
 ```
 
 **Evaluation():**
